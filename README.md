@@ -7,6 +7,8 @@ Starting with a minimal Debian installation and no internet connection, this pro
 
 From manually installing packages via USB to clever but compliant workarounds of university network restrictions, this showcases practical problem-solving in Linux system administration and network engineering.
 
+<img width="1653" height="1057" alt="Connected to the server" src="https://github.com/user-attachments/assets/1ff6c1d8-6cdd-48b0-a617-36dc7e41f904" />
+
 ### Technology Stack
 
 - OS: Debian 13 (minimal, headless)
