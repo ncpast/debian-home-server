@@ -41,7 +41,7 @@ Below is a step-by-step overview of the entire build process.
 - Downloaded .deb packages on Arch laptop from https://packages.debian.org/
 - Transferred packages via USB drive
 - Mounted USB on Debian server
-- Installed packages manually: dpkg -i [package name].deb
+- Installed packages manually: `dpkg -i [package name].deb`
 
 
 ##### Packages installed: sudo, rfkill, and dependencies
@@ -62,7 +62,7 @@ Manual network configuration:
 - Created /etc/wpa_supplicant/eduroam.conf with university credentials
 - Used wpa_supplicant and dhclient for connectivity
 - Dealt with rfkill blocking (unblocked wireless interface with rfkill unblock wifi)
-- Brought up network interface: ip link set wlp0s20f3 up
+- Brought up network interface: `ip link set wlp0s20f3 up`
 - Later manually set up NetworkManager for autostart and easier, more reliable connection to the internet
 
 
