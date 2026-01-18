@@ -109,7 +109,7 @@ alias screendim='echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brig
 
 9. Playit.gg Tunnel Setup (Testing)
 ##### **Problem:** I do not own the eduroam network, and as a result I do not have admin access. Setting up traditional port forwarding would be impossible.
-##### **Solution:** set up network tunneling via global proxy.
+##### **Solution:** Set up network tunneling via global proxy.
 - Installed playit on Arch laptop
 - Configured tunnel for external access
 - Tested external connectivity
@@ -152,9 +152,9 @@ alias screendim='echo 10000 | sudo tee /sys/class/backlight/intel_backlight/brig
 - Install demanding mods
 - Configure proper restart policies
 
-## result
+## End Result
 
-### Final architecture
+### Final Architecture
 
 ```
 Internet
@@ -170,7 +170,7 @@ Debian Server (Laptop)
     └── SSH Server (remote management)
 ```
 
-### Technical challenges solved
+### Technical Challenges Solved
 
 - Offline package management: Resolved dependency issues in air-gapped environment using USB transfer and manual dpkg installation
 - Network restrictions: worked around public network NAT/firewall using tunneling
